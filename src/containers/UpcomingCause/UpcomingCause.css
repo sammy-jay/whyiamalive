@@ -1,0 +1,104 @@
+.upcomingcause {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6rem 5rem;
+}
+.upcomingcause article h1 {
+  font-size: 46px;
+  line-height: 56px;
+  font-weight: 400;
+  color: #450000;
+  text-transform: capitalize;
+}
+.upcomingcause article h3 {
+  color: #a70000;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+  display: block;
+}
+.upcomingcause article p {
+  color: #4d4d4d;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 11px;
+  margin-bottom: 44px;
+}
+.imageholder {
+  margin-top: -100px;
+  z-index: 100;
+  margin-left: 1rem;
+}
+.upcomingcause article img {
+  margin-top: -70px;
+  z-index: 100;
+  height: 600px;
+  width: 550px;
+  object-fit: contain;
+}
+.upcomingcause article .btnholder {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.upcomingcause article .btnholder * {
+  margin-right: 10px;
+}
+.upcomingcause article .btnholder div {
+  display: flex;
+  flex-direction: column;
+}
+.upcomingcause article .btnholder div * {
+  margin-bottom: 10px;
+}
+.upcomingcause article .btnholder div h4 {
+  color: #a70000;
+  font-weight: 400;
+  background: #faf0f0;
+  padding: 12px 26px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.upcomingcause article .btnholder div button {
+  background: #a70000;
+  padding: 12px 26px;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  display: inline-block;
+  text-transform: capitalize;
+  border: none;
+}
+.upcomingcause article .btnholder div button:hover {
+  color: #a70000;
+  background: #faf0f0;
+}
+@media screen and (max-width: 800px) {
+  .upcomingcause {
+    flex-direction: column;
+    padding: 0 3rem 4rem;
+  }
+  .imageholder {
+    margin-top: 20px;
+    margin: 20px auto;
+  }
+  .upcomingcause article img {
+    margin-top: 20px;
+    height: 400px;
+    width: 60vw;
+    margin: 20px auto;
+  }
+  .upcomingcause article h1 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+}

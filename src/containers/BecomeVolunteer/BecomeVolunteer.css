@@ -1,0 +1,79 @@
+.becomevolunteer {
+  background-image: url("../../assets/how-to-vol.webp");
+  width: 100vw;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+  background-size: cover;
+  padding-bottom: 5rem;
+  background-color: #555;
+  background-blend-mode: darken;
+  background-blend-mode: multiply;
+}
+.becomevolunteer div {
+  background: #a70000;
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 36px 32px;
+  text-align: center;
+}
+.becomevolunteer div h3 {
+  font-size: 46px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 70%;
+  margin: 0 auto;
+}
+.becomevolunteer div p {
+  font-size: 16px;
+  color: #e5e5e5;
+  line-height: 28px;
+  width: 70%;
+  text-align: center;
+  margin: 20px auto 36px;
+}
+
+.becomevolunteer div button {
+  background: transparent;
+  padding: 12px 26px;
+  margin-bottom: 0;
+  border: 1.5px solid #fff;
+  font-size: 20px;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  display: inline-block;
+  text-transform: capitalize;
+}
+.becomevolunteer div button:hover {
+  color: #a70000;
+  background: #faf0f0;
+}
+@media screen and (max-width: 800px) {
+  .becomevolunteer {
+    height: max-content;
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+  }
+  .becomevolunteer div {
+    top: 35%;
+
+    left: 25%;
+    -webkit-transform: translate(-25%, -25%);
+    -moz-transform: translate(-25%, -25%);
+    -ms-transform: translate(-25%, -25%);
+    transform: translate(-25%, -25%);
+    padding: 16px 12px;
+    text-align: center;
+  }
+}

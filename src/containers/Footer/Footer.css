@@ -1,0 +1,59 @@
+.footer {
+  background-color: #450000;
+  width: 100vw;
+  /* min-height: 100vh; */
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: #fff;
+}
+.footer div * {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 16px;
+  color: #e5e5e5;
+  line-height: 28px;
+}
+.footer div {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer div h3 {
+  margin: 1rem;
+  margin-left: 0;
+  font-size: 22px;
+  font-weight: 500;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+.footer input {
+  outline: none;
+  padding: 3px 7px;
+  color: #222;
+}
+.footer button {
+  padding: 0.6rem 1.15rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  background: #a70000;
+  transition: 0.5s linear;
+  border: 0;
+  cursor: pointer;
+}
+.footer button:hover {
+  background-color: #fff;
+  color: steelblue;
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr;
+    padding: 3rem;
+  }
+}
