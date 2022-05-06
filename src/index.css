@@ -10,7 +10,7 @@ html::-webkit-scrollbar-track {
   background: transparent;
 }
 html::-webkit-scrollbar-thumb {
-  background: #a70000;
+  background: #2a286a;
   border-radius: 10px;
 }
 body {

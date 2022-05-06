@@ -22,7 +22,7 @@ const Navbar = () => {
     };
   });
   return (
-    <nav className="navbar" style={{ backgroundColor: changeBg && " #a70000" }}>
+    <nav className="navbar" style={{ backgroundColor: changeBg && " #2a286a" }}>
       <img src={logo} alt="logo here" />
       <div className="nav-links1">
         <a href="#">Home</a>

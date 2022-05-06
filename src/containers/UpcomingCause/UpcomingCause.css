@@ -12,7 +12,7 @@
   text-transform: capitalize;
 }
 .upcomingcause article h3 {
-  color: #a70000;
+  color: #2a286a;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -56,7 +56,7 @@
   margin-bottom: 10px;
 }
 .upcomingcause article .btnholder div h4 {
-  color: #a70000;
+  color: #2a286a;
   font-weight: 400;
   background: #faf0f0;
   padding: 12px 26px;
@@ -65,7 +65,7 @@
   font-family: "Roboto", sans-serif;
 }
 .upcomingcause article .btnholder div button {
-  background: #a70000;
+  background: #2a286a;
   padding: 12px 26px;
   margin-bottom: 0;
   font-size: 20px;
@@ -79,7 +79,7 @@
   border: none;
 }
 .upcomingcause article .btnholder div button:hover {
-  color: #a70000;
+  color: #2a286a;
   background: #faf0f0;
 }
 @media screen and (max-width: 800px) {

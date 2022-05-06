@@ -18,7 +18,7 @@
   cursor: pointer;
 }
 .donors div:hover {
-  border-color: #a70000;
+  border-color: #2a286a;
 }
 .donors div h2 {
   font-size: 33px;
@@ -26,10 +26,10 @@
 }
 .donors div p {
   font-size: 20px;
-  color: #a70000;
+  color: #2a286a;
 }
 .donors div svg {
-  color: #a70000;
+  color: #2a286a;
   font-size: 55px;
   margin-bottom: 7px;
 }

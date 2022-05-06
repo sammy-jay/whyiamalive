@@ -1,5 +1,5 @@
 .footer {
-  background-color: #450000;
+  background-color: #171b2a;
   width: 100vw;
   /* min-height: 100vh; */
   padding: 4rem;
@@ -42,7 +42,7 @@
   font-weight: 500;
   font-size: 18px;
   color: #fff;
-  background: #a70000;
+  background: #2a286a;
   transition: 0.5s linear;
   border: 0;
   cursor: pointer;

@@ -14,7 +14,7 @@
   background-blend-mode: multiply;
 }
 .becomevolunteer div {
-  background: #a70000;
+  background: #2a286a;
   position: absolute;
   top: 50%;
   display: inline-block;
@@ -57,7 +57,7 @@
   text-transform: capitalize;
 }
 .becomevolunteer div button:hover {
-  color: #a70000;
+  color: #2a286a;
   background: #faf0f0;
 }
 @media screen and (max-width: 800px) {
