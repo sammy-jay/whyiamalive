@@ -1,0 +1,40 @@
+.donors {
+  display: flex;
+  justify-content: center;
+  padding: 6rem;
+  background: #fff;
+  flex-wrap: wrap;
+}
+.donors div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 3rem;
+  width: 250px;
+  margin: 1rem;
+  cursor: pointer;
+}
+.donors div:hover {
+  border-color: #a70000;
+}
+.donors div h2 {
+  font-size: 33px;
+  margin-bottom: 5px;
+}
+.donors div p {
+  font-size: 20px;
+  color: #a70000;
+}
+.donors div svg {
+  color: #a70000;
+  font-size: 55px;
+  margin-bottom: 7px;
+}
+@media screen and (max-width: 800px) {
+  .donors {
+    padding: 3rem;
+  }
+}

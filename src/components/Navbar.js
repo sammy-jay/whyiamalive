@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
-import logo from "../assets/logo-white.jpg";
+import logo from "../assets/logo-white.png";
 import { BiMenuAltRight } from "react-icons/bi";
 
 const Navbar = () => {
